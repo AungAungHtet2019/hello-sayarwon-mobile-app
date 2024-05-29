@@ -168,6 +168,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: 'Hello Sayarwon'),
       initialRoute: HomePage.routeName,
+      debugShowCheckedModeBanner: false,
       routes: {
         HomePage.routeName : (context) => const HomePage(),
         ArticleListPage.routeName : (context) => const ArticleListPage(),
